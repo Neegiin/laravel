@@ -28,3 +28,17 @@ Route::get('/lessons',function() {
 Route::get('/gallery',function() {
     return 'Gallery';
 });
+
+Route::prefix('admin')->group(function(){
+
+    Route::get('/admin1',function() {
+        return 'Admin 1';
+    });
+    Route::get('/admin2',function() {
+        return 'Admin 2';
+    });
+    Route::get('/admin3',function() {
+        return 'Admin 3';
+    });
+
+});
