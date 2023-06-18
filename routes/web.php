@@ -24,3 +24,7 @@ Route::get('/articles',function() {
 Route::get('/lessons',function() {
     return 'Lessons List';
 });
+
+Route::get('/gallery',function() {
+    return 'Gallery';
+});
